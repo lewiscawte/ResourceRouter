@@ -62,8 +62,6 @@ class SpecialResourceRouter extends UnlistedSpecialPage {
 	}
 
 	private function getFile() {
-		global $wgUploadPath;
-
 		$this->getOutput()->disable();
 
 		header( 'Cache-Control: max-age=' . $this->mCacheTime );
