@@ -53,7 +53,7 @@ class SpecialResourceRouter extends UnlistedSpecialPage {
 		if ( $this->mType == ( "favicon.ico" || "favicon.ico" ) ) {
 			$this->mType = 'favicon';
 			$this->mVariable = 'wgFavicon';
-		} elseif ( preg_match(' apple-touch-icon(.*)\.png', $this->mType ) ) {
+		} elseif ( preg_match( '/apple-touch-icon(.*)\.png/', $this->mType ) ) {
 			$this->mType = 'apple';
 			$this->mVariable = 'wgAppleTouchIcon';
 		} else {
