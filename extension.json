@@ -1,0 +1,22 @@
+{
+	"name": "ResourceRouter",
+	"version": "0.1",
+	"author": [
+		"Lewis Cawte"
+	],
+	"license-name": "GPL-3.0-or-later",
+	"descriptionmsg": "resourcerouter-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"ResourceRouter": "SpecialResourceRouter"
+	},
+	"MessagesDirs": {
+		"ResourceRouter": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SitemapPage": "SpecialResourceRouter.php"
+	},
+	"manifest_version": 1
+}

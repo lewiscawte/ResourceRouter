@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lewis Cawte"
+		]
+	},
+	"resourcerouter-desc": "Provides redirect handling for root level files."
+}
