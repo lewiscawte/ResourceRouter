@@ -67,7 +67,7 @@ class SpecialResourceRouter extends UnlistedSpecialPage {
 		$this->getOutput()->disable();
 
 		header( 'Cache-Control: max-age=' . $this->mCacheTime );
-		header( 'Location: ' . $wgUploadPath . $GLOBALS[$this->mVariable] );
+		header( 'Location: ' . $GLOBALS[$this->mVariable] );
 	}
 
 	private function print404() {
