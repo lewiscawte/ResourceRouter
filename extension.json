@@ -16,7 +16,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SitemapPage": "SpecialResourceRouter.php"
+		"SpecialResourceRouter": "SpecialResourceRouter.php"
 	},
 	"manifest_version": 1
 }
